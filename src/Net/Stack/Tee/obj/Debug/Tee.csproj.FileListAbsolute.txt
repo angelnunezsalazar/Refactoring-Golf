@@ -1,0 +1,5 @@
+D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Tee\bin\Debug\Tee.dll
+D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Tee\bin\Debug\Tee.pdb
+D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Tee\obj\Debug\ResolveAssemblyReference.cache
+D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Tee\obj\Debug\Tee.dll
+D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Tee\obj\Debug\Tee.pdb

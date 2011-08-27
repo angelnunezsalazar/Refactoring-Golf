@@ -1,0 +1,5 @@
+D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Hole\bin\Debug\Hole.dll
+D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Hole\bin\Debug\Hole.pdb
+D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Hole\obj\Debug\ResolveAssemblyReference.cache
+D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Hole\obj\Debug\Hole.dll
+D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Hole\obj\Debug\Hole.pdb
