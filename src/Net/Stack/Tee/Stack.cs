@@ -18,16 +18,11 @@
             get { return count; }
         }
 
-        public int Capacity
-        {
-            get { return elements.Length; }
-        }
-
         public void Push(object element)
         {
-            if (count + 1 > Capacity)
+            if (count + 1 > this.elements.Length)
             {
-                object[] temp = new object[2 * Capacity];
+                object[] temp = new object[2 * this.elements.Length];
                 Array.Copy(elements, temp, count);
                 elements = temp;
             }

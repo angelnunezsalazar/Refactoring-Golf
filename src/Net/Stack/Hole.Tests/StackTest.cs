@@ -1,10 +1,10 @@
-﻿namespace Tee.Tests
+﻿namespace Hole.Tests
 {
     using System;
 
-    using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using Hole;
 
-    using Tee;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
 
     [TestClass]
     public class StackTest

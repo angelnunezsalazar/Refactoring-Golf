@@ -1,7 +1,0 @@
-D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Tee.Tests\bin\Debug\Tee.Tests.dll
-D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Tee.Tests\bin\Debug\Tee.Tests.pdb
-D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Tee.Tests\bin\Debug\Tee.dll
-D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Tee.Tests\bin\Debug\Tee.pdb
-D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Tee.Tests\obj\Debug\ResolveAssemblyReference.cache
-D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Tee.Tests\obj\Debug\Tee.Tests.dll
-D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Tee.Tests\obj\Debug\Tee.Tests.pdb

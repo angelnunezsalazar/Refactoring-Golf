@@ -1,7 +1,0 @@
-D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Hole.Tests\bin\Debug\Hole.Tests.dll
-D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Hole.Tests\bin\Debug\Hole.Tests.pdb
-D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Hole.Tests\bin\Debug\Hole.dll
-D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Hole.Tests\bin\Debug\Hole.pdb
-D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Hole.Tests\obj\Debug\ResolveAssemblyReference.cache
-D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Hole.Tests\obj\Debug\Hole.Tests.dll
-D:\Consulting\RefactoringGolf\src\Net\Stack\Stack\Hole.Tests\obj\Debug\Hole.Tests.pdb
