@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoringGolf.Stack", "RefactoringGolf\RefactoringGolf.Stack.csproj", "{D6F4C55C-5842-4659-BD82-62BDB855B922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoringGolf.Stack.Tests", "RefactoringGolf.Tests\RefactoringGolf.Stack.Tests.csproj", "{07F1F040-A16C-4B4B-9B90-E8E14873CE76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6F4C55C-5842-4659-BD82-62BDB855B922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F4C55C-5842-4659-BD82-62BDB855B922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F4C55C-5842-4659-BD82-62BDB855B922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F4C55C-5842-4659-BD82-62BDB855B922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07F1F040-A16C-4B4B-9B90-E8E14873CE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F1F040-A16C-4B4B-9B90-E8E14873CE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F1F040-A16C-4B4B-9B90-E8E14873CE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F1F040-A16C-4B4B-9B90-E8E14873CE76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

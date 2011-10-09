@@ -1,6 +1,0 @@
-<Modules>
-  <Module PersistentId="D6F4C55C-5842-4659-BD82-62BDB855B922" ModuleId="Tee" />
-  <Module PersistentId="07F1F040-A16C-4B4B-9B90-E8E14873CE76" ModuleId="Tee.Tests" />
-  <Module PersistentId="D1B305D9-19B1-4285-9A74-C94E4909AE4D" ModuleId="Hole" />
-  <Module PersistentId="A797E5E3-1769-474D-A9F2-9280C6B59E51" ModuleId="Hole.Tests" />
-</Modules>
