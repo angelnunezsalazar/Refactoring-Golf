@@ -77,7 +77,6 @@ public class Order {
 			totalItems += itemAmount;
 		}
 
-		// Calculate the shipping cost and tax rate
 		if (this.deliveryCountry == "USA")
 			// totalAmount=totalItemAmount + tax + 0 shipping
 			return totalItems + totalItems * 5 / 100;
