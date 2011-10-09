@@ -9,10 +9,10 @@
         <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Tests.ProductTests" type="MsTestTestClassElement" TypeName="RefactoringGolf.Tests.ProductTests" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
         <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Tests.SalesmanTests" type="MsTestTestClassElement" TypeName="RefactoringGolf.Tests.SalesmanTests" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
         <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Tests.ManagerTests.CalculateTheNetSalaryWhenBenefits" ParentId="RefactoringGolf.Tests.ManagerTests" type="MsTestTestMethodElement" MethodName="CalculateTheNetSalaryWhenBenefits" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
-        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Tests.ManagerTests.CalculateTheNetSalaryWhenFixedSalaryIsOverTheMinimumTax" ParentId="RefactoringGolf.Tests.ManagerTests" type="MsTestTestMethodElement" MethodName="CalculateTheNetSalaryWhenFixedSalaryIsOverTheMinimumTax" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
         <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Tests.SalesmanTests.CalculateTheNetSalaryWhenFixedSalaryIsOverTheMinimumTax" ParentId="RefactoringGolf.Tests.SalesmanTests" type="MsTestTestMethodElement" MethodName="CalculateTheNetSalaryWhenFixedSalaryIsOverTheMinimumTax" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
-        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Tests.SalesmanTests.CalculateTheNetSalaryWhenFixedSalaryIsUnderTheMinimumTax" ParentId="RefactoringGolf.Tests.SalesmanTests" type="MsTestTestMethodElement" MethodName="CalculateTheNetSalaryWhenFixedSalaryIsUnderTheMinimumTax" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
+        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Tests.ManagerTests.CalculateTheNetSalaryWhenFixedSalaryIsOverTheMinimumTax" ParentId="RefactoringGolf.Tests.ManagerTests" type="MsTestTestMethodElement" MethodName="CalculateTheNetSalaryWhenFixedSalaryIsOverTheMinimumTax" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
         <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Tests.ManagerTests.CalculateTheNetSalaryWhenFixedSalaryIsUnderTheMinimumTax" ParentId="RefactoringGolf.Tests.ManagerTests" type="MsTestTestMethodElement" MethodName="CalculateTheNetSalaryWhenFixedSalaryIsUnderTheMinimumTax" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
+        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Tests.SalesmanTests.CalculateTheNetSalaryWhenFixedSalaryIsUnderTheMinimumTax" ParentId="RefactoringGolf.Tests.SalesmanTests" type="MsTestTestMethodElement" MethodName="CalculateTheNetSalaryWhenFixedSalaryIsUnderTheMinimumTax" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
         <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Tests.SalesmanTests.CalculateTheNetSalaryWhenHaveMonthQuota" ParentId="RefactoringGolf.Tests.SalesmanTests" type="MsTestTestMethodElement" MethodName="CalculateTheNetSalaryWhenHaveMonthQuota" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
         <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Tests.CustomerTests.FormatThePhoneNumber" ParentId="RefactoringGolf.Tests.CustomerTests" type="MsTestTestMethodElement" MethodName="FormatThePhoneNumber" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
         <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Tests.OrderTests.HoldManyOrderItems" ParentId="RefactoringGolf.Tests.OrderTests" type="MsTestTestMethodElement" MethodName="HoldManyOrderItems" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
@@ -27,7 +27,7 @@
   </UnitTestSessions>
   <RecentFiles>
     <RecentFiles>
-      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Order.cs" caret="1024" fromTop="32" />
+      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Order.cs" caret="2182" fromTop="12" />
     </RecentFiles>
     <RecentEdits>
       <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Order.cs" caret="1090" fromTop="9" />
@@ -39,10 +39,11 @@
       <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Order.cs" caret="1180" fromTop="11" />
       <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Order.cs" caret="1180" fromTop="15" />
       <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Order.cs" caret="1242" fromTop="8" />
-      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Order.cs" caret="1498" fromTop="18" />
-      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Order.cs" caret="2177" fromTop="12" />
-      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Order.cs" caret="2339" fromTop="16" />
+      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Order.cs" caret="2147" fromTop="12" />
+      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Order.cs" caret="2309" fromTop="16" />
       <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Order.cs" caret="1024" fromTop="6" />
+      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Order.cs" caret="1531" fromTop="15" />
+      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Order.cs" caret="1847" fromTop="3" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>

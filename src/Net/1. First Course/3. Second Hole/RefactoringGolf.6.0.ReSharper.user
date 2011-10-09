@@ -27,8 +27,8 @@
   </UnitTestSessions>
   <RecentFiles>
     <RecentFiles>
-      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:OrderItem.cs" caret="411" fromTop="0" />
-      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Order.cs" caret="1870" fromTop="23" />
+      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Order.cs" caret="1871" fromTop="8" />
+      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:OrderItem.cs" caret="452" fromTop="7" />
     </RecentFiles>
     <RecentEdits>
       <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Order.cs" caret="1090" fromTop="9" />
@@ -47,7 +47,6 @@
       <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Order.cs" caret="1870" fromTop="18" />
       <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:OrderItem.cs" caret="1747" fromTop="21" />
       <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:OrderItem.cs" caret="422" fromTop="0" />
-      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:OrderItem.cs" caret="603" fromTop="4" />
       <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:OrderItem.cs" caret="1425" fromTop="13" />
       <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:OrderItem.cs" caret="752" fromTop="8" />
       <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:OrderItem.cs" caret="909" fromTop="11" />
@@ -55,6 +54,7 @@
       <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:OrderItem.cs" caret="1034" fromTop="6" />
       <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:OrderItem.cs" caret="1291" fromTop="16" />
       <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:OrderItem.cs" caret="1466" fromTop="21" />
+      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:OrderItem.cs" caret="452" fromTop="7" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>

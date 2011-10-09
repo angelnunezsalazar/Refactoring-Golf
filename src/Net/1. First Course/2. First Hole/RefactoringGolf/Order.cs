@@ -51,8 +51,7 @@ namespace RefactoringGolf
 
         private decimal Tax(decimal totalItems)
         {
-            var tax = totalItems * 5 / 100;
-            return tax;
+            return totalItems * 5 / 100;
         }
 
         private decimal TotalItems()
@@ -61,7 +60,7 @@ namespace RefactoringGolf
             foreach (var item in this.Items)
             {
                 decimal itemAmount = item.Product.UnitPrice * item.Quantity;
-                decimal discount = 0;
+                decimal discount=0;
                 if (item.Product.Category == ProductCategory.Accessories)
                 {
                     discount = 0;
