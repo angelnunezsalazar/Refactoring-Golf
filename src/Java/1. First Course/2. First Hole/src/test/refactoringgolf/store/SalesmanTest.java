@@ -13,7 +13,7 @@ public class SalesmanTest {
 		int fixedSalary = 3000;
 		Salesman salesman = createSalesman(fixedSalary);
 
-		assertEquals(2700, salesman.calculateNetSalary(), 0);
+		assertEquals(2700, salesman.netSalary(), 0);
 	}
 
 	@Test
@@ -21,7 +21,7 @@ public class SalesmanTest {
 		int fixedSalary = 5000;
 		Salesman salesman = createSalesman(fixedSalary);
 
-		assertEquals(4250, salesman.calculateNetSalary(), 0);
+		assertEquals(4250, salesman.netSalary(), 0);
 	}
 
 	@Test
@@ -30,7 +30,7 @@ public class SalesmanTest {
 		Salesman salesman = createSalesman(fixedSalary);
 		salesman.updateMonQuo(1000);
 
-		assertEquals(2800, salesman.calculateNetSalary(), 0);
+		assertEquals(2800, salesman.netSalary(), 0);
 	}
 
 	private Salesman createSalesman(int fixedSalary) {

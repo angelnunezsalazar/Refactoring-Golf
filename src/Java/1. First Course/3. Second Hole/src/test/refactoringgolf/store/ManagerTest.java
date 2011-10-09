@@ -14,7 +14,7 @@ public class ManagerTest {
 		int fixedSalary = 3000;
 		Manager manager = createManager(fixedSalary);
 
-		assertEquals(2700, manager.calculateSalaryAfterAdditionsAndDeductions(), 0);
+		assertEquals(2700, manager.salaryAfterAdditionsAndDeductions(), 0);
 	}
 
 	@Test
@@ -22,7 +22,7 @@ public class ManagerTest {
 		int fixedSalary = 5000;
 		Manager manager = createManager(fixedSalary);
 
-		assertEquals(4250, manager.calculateSalaryAfterAdditionsAndDeductions(), 0);
+		assertEquals(4250, manager.salaryAfterAdditionsAndDeductions(), 0);
 	}
 
 	@Test
@@ -31,7 +31,7 @@ public class ManagerTest {
 		Manager manager = createManager(fixedSalary);
 		manager.addSubordinate(createSubordinate());
 
-		assertEquals(2720, manager.calculateSalaryAfterAdditionsAndDeductions(), 0);
+		assertEquals(2720, manager.salaryAfterAdditionsAndDeductions(), 0);
 	}
 
 	private Manager createManager(int fixedSalary) {

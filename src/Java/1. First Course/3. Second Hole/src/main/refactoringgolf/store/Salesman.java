@@ -22,7 +22,7 @@ public class Salesman extends Employee {
 		return monQuo;
 	}
 
-	public float calculateNetSalary() {
+	public float netSalary() {
 		float addicionalBenefits = monQuo * commPor / 100;
 		float pensionFounds = fixedSalary * 10 / 100;
 		float tax = 0;
