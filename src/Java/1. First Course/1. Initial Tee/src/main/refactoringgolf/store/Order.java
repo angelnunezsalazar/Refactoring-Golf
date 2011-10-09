@@ -63,11 +63,8 @@ public class Order {
 				}
 				itemAmount = itemAmount - booksDiscount;
 			}
-			if (item.getProduct().getCategory() == ProductCategory.Components) {
-				// itemAmount=itemAmount-discount
-				itemAmount = itemAmount - itemAmount * 5 / 100;
-			}
 			if (item.getProduct().getCategory() == ProductCategory.Bikes) {
+				// itemAmount=itemAmount-discount
 				itemAmount = itemAmount - itemAmount * 20 / 100;
 			}
 			if (item.getProduct().getCategory() == ProductCategory.Cloathing) {

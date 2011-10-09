@@ -83,9 +83,6 @@ public class Order {
 					discount = itemAmount * 10 / 100;
 				}
 			}
-			if (item.getProduct().getCategory() == ProductCategory.Components) {
-				discount = itemAmount * 5 / 100;
-			}
 			if (item.getProduct().getCategory() == ProductCategory.Bikes) {
 				discount = itemAmount * 20 / 100;
 			}

@@ -21,13 +21,10 @@ public class OrderItem {
 		return quantity;
 	}
 
-	float total() {
+	public float total() {
 		float discount=0;
 		if (getProduct().getCategory() == ProductCategory.Accessories) {
 			discount = calculateAccessoriesDiscount();
-		}
-		if (getProduct().getCategory() == ProductCategory.Components) {
-			discount = calculateComponentsDiscount();
 		}
 		if (getProduct().getCategory() == ProductCategory.Bikes) {
 			discount = calculateBikesDiscount();
@@ -57,10 +54,6 @@ public class OrderItem {
 			discount = getProduct().getUnitPrice();
 		}
 		return discount;
-	}
-
-	private float calculateComponentsDiscount() {
-		return unitPricePerQuantity() * 5 / 100;
 	}
 
 	private float unitPricePerQuantity() {

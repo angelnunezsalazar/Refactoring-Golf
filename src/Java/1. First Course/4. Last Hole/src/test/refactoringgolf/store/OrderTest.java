@@ -48,17 +48,6 @@ public class OrderTest {
 	}
 
 	@Test
-	public void returnTheTotalWithComponentsDiscount() {
-		Order order = createOrder("USA");
-		OrderItem orderItem = createOrderItem(100, ProductCategory.Components, 2);
-		addItemToOrder(order, orderItem);
-
-		float total = order.total();
-
-		assertEquals(199.5, total, 1);
-	}
-
-	@Test
 	public void returnTheTotalWithCloathingDiscount() {
 		Order order = createOrder("USA");
 		OrderItem orderItem = createOrderItem(100, ProductCategory.Cloathing, 3);

@@ -21,7 +21,7 @@ public class OrderItem {
 		return quantity;
 	}
 
-	float total() {
+	public float total() {
 		return unitPricePerQuantity() - createCategoryDiscount().calculateDiscount(this);
 	}
 
@@ -29,9 +29,6 @@ public class OrderItem {
 		CategoryDiscount categoryDiscount=null;
 		if (getProduct().getCategory() == ProductCategory.Accessories) {
 			categoryDiscount = new AccessoriesDiscount();
-		}
-		if (getProduct().getCategory() == ProductCategory.Components) {
-			categoryDiscount = new ComponentsDiscount();
 		}
 		if (getProduct().getCategory() == ProductCategory.Bikes) {
 			categoryDiscount = new BikesDiscount();
