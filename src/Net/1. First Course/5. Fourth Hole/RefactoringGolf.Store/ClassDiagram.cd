@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
-  <Class Name="RefactoringGolf.Stack.Employee">
+  <Class Name="RefactoringGolf.Store.Employee">
     <Position X="0.5" Y="0.5" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAEQAAAAAAAAMAAAAAAAAAAIABAAAAAIAAAABAAg=</HashCode>
       <FileName>Employee.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="RefactoringGolf.Stack.Manager">
+  <Class Name="RefactoringGolf.Store.Manager">
     <Position X="3.75" Y="0.75" Width="3.5" />
     <TypeIdentifier>
       <HashCode>QAAAAAQAAAAAAAAAIAAAAACAAAAAgAAAAAAAAAAAAAA=</HashCode>
       <FileName>Manager.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="RefactoringGolf.Stack.Salesman">
+  <Class Name="RefactoringGolf.Store.Salesman">
     <Position X="0.5" Y="4" Width="3.25" />
-    <InheritanceLine Type="RefactoringGolf.Stack.Employee" ManuallyRouted="true" FixedFromPoint="true">
+    <InheritanceLine Type="RefactoringGolf.Store.Employee" ManuallyRouted="true" FixedFromPoint="true">
       <Path>
         <Point X="2.125" Y="3.594" />
         <Point X="2.125" Y="4" />

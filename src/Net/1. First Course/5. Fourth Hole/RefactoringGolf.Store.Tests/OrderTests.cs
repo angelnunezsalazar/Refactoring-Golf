@@ -4,6 +4,8 @@ namespace RefactoringGolf.Stack.Tests
 
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
+    using RefactoringGolf.Store;
+
     [TestClass]
     public class OrderTests
     {

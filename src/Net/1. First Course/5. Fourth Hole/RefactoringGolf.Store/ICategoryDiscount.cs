@@ -1,4 +1,4 @@
-namespace RefactoringGolf.Stack
+namespace RefactoringGolf.Store
 {
     public interface ICategoryDiscount
     {

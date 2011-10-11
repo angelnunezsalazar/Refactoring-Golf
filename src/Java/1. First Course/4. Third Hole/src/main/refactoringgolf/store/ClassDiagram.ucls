@@ -1,56 +1,56 @@
 <class-diagram version="1.0.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true">  
-  <class id="1" corner="BOTTOM_RIGHT" language="java" name="refactoringgolf.store.OrderItem" project="4. Last Hole" 
-    file="/4. Last Hole/src/main/refactoringgolf/store/OrderItem.java" binary="false">    
-    <position x="119" y="90" width="-1" height="-1"/>    
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="refactoringgolf.store.OrderItem" project="4. Third Hole" 
+    file="/4. Third Hole/src/main/refactoringgolf/store/OrderItem.java" binary="false">    
+    <position x="87" y="91" width="-1" height="-1"/>    
     <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
     </display>  
   </class>  
-  <class id="3" corner="BOTTOM_RIGHT" language="java" name="refactoringgolf.store.AccessoriesDiscount" 
-    project="4. Last Hole" file="/4. Last Hole/src/main/refactoringgolf/store/AccessoriesDiscount.java" binary="false">    
-    <position x="133" y="281" width="-1" height="-1"/>    
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="refactoringgolf.store.AccessoriesDiscount" 
+    project="4. Third Hole" file="/4. Third Hole/src/main/refactoringgolf/store/AccessoriesDiscount.java" binary="false">    
+    <position x="132" y="263" width="-1" height="-1"/>    
     <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
     </display>  
   </class>  
-  <class id="4" corner="BOTTOM_RIGHT" language="java" name="refactoringgolf.store.BikesDiscount" project="4. Last Hole" 
-    file="/4. Last Hole/src/main/refactoringgolf/store/BikesDiscount.java" binary="false">    
-    <position x="369" y="281" width="-1" height="-1"/>    
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="refactoringgolf.store.BikesDiscount" project="4. Third Hole" 
+    file="/4. Third Hole/src/main/refactoringgolf/store/BikesDiscount.java" binary="false">    
+    <position x="343" y="262" width="-1" height="-1"/>    
     <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
     </display>  
   </class>  
-  <interface id="5" corner="BOTTOM_RIGHT" language="java" name="refactoringgolf.store.CategoryDiscount" 
-    project="4. Last Hole" file="/4. Last Hole/src/main/refactoringgolf/store/CategoryDiscount.java" binary="false">    
-    <position x="370" y="75" width="-1" height="-1"/>    
+  <interface id="4" corner="BOTTOM_RIGHT" language="java" name="refactoringgolf.store.CategoryDiscount" 
+    project="4. Third Hole" file="/4. Third Hole/src/main/refactoringgolf/store/CategoryDiscount.java" binary="false">    
+    <position x="342" y="100" width="-1" height="-1"/>    
     <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
     </display>  
   </interface>  
-  <class id="6" corner="BOTTOM_RIGHT" language="java" name="refactoringgolf.store.CloathingDiscount" 
-    project="4. Last Hole" file="/4. Last Hole/src/main/refactoringgolf/store/CloathingDiscount.java" binary="false">    
-    <position x="594" y="279" width="-1" height="-1"/>    
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="refactoringgolf.store.CloathingDiscount" 
+    project="4. Third Hole" file="/4. Third Hole/src/main/refactoringgolf/store/CloathingDiscount.java" binary="false">    
+    <position x="548" y="264" width="-1" height="-1"/>    
     <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true"/>      
       <operations public="true" package="true" protected="true" private="true"/>    
     </display>  
   </class>  
   <realization>    
-    <end type="SOURCE" nodeId="6"/>    
-    <end type="TARGET" nodeId="5"/>  
+    <end type="SOURCE" nodeId="5"/>    
+    <end type="TARGET" nodeId="4"/>  
   </realization>  
   <realization>    
     <end type="SOURCE" nodeId="3"/>    
-    <end type="TARGET" nodeId="5"/>  
+    <end type="TARGET" nodeId="4"/>  
   </realization>  
   <realization>    
-    <end type="SOURCE" nodeId="4"/>    
-    <end type="TARGET" nodeId="5"/>  
+    <end type="SOURCE" nodeId="2"/>    
+    <end type="TARGET" nodeId="4"/>  
   </realization>  
   <classifier-display autosize="true" package="true" initial-value="false" signature="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true"/>    

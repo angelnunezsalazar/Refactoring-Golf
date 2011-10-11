@@ -1,4 +1,4 @@
-namespace RefactoringGolf.Stack
+namespace RefactoringGolf.Store
 {
     using System;
     using System.Collections.Generic;

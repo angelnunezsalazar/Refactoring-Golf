@@ -1,0 +1,65 @@
+<class-diagram version="1.0.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="refactoringgolf.store.Employee" project="5. Fourth Hole" 
+    file="/5. Fourth Hole/src/main/refactoringgolf/store/Employee.java" binary="false">    
+    <position x="31" y="-68" width="160" height="355"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="refactoringgolf.store.Manager" project="5. Fourth Hole" 
+    file="/5. Fourth Hole/src/main/refactoringgolf/store/Manager.java" binary="false">    
+    <position x="396" y="223" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="refactoringgolf.store.Salesman" project="5. Fourth Hole" 
+    file="/5. Fourth Hole/src/main/refactoringgolf/store/Salesman.java" binary="false">    
+    <position x="395" y="22" width="-1" height="-1"/>    
+    <display autosize="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <generalization>    
+    <end type="SOURCE" nodeId="3"/>    
+    <end type="TARGET" nodeId="1"/>  
+  </generalization>  
+  <association>    
+    <bendpoint x="180" y="298"/>    
+    <bendpoint x="229" y="297"/>    
+    <end type="SOURCE" nodeId="1" navigable="false">      
+      <attribute name="manager"/>      
+      <multiplicity minimum="0" maximum="1">        
+        <position x="214" y="252" width="18" height="14"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" nodeId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association>    
+    <bendpoint x="395" y="318"/>    
+    <bendpoint x="171" y="318"/>    
+    <end type="SOURCE" nodeId="2" navigable="false">      
+      <attribute name="subordinates"/>      
+      <multiplicity minimum="0" maximum="2147483647">        
+        <position x="151" y="315" width="16" height="14"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" nodeId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization>    
+    <bendpoint x="259" y="174"/>    
+    <end type="SOURCE" nodeId="2"/>    
+    <end type="TARGET" nodeId="1"/>  
+  </generalization>  
+  <classifier-display autosize="true" package="true" initial-value="false" signature="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

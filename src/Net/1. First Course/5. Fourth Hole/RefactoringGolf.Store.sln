@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoringGolf.Stack", "RefactoringGolf.Store\RefactoringGolf.Stack.csproj", "{4F071850-5EFA-4282-B078-2E1675C035C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoringGolf.Store", "RefactoringGolf.Store\RefactoringGolf.Store.csproj", "{4F071850-5EFA-4282-B078-2E1675C035C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoringGolf.Stack.Tests", "RefactoringGolf.Store.Tests\RefactoringGolf.Stack.Tests.csproj", "{7198DB14-43B0-46F2-A645-D7BEF7472C11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoringGolf.Store.Tests", "RefactoringGolf.Store.Tests\RefactoringGolf.Store.Tests.csproj", "{7198DB14-43B0-46F2-A645-D7BEF7472C11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
