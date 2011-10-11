@@ -2,7 +2,7 @@
  * Copyright (C) 2010-2011 by ExampleWorks, Inc. All rights reserved.
  * LICENSE: You can't redistribute it and/or modify it.
  */
-namespace RefactoringGolf
+namespace RefactoringGolf.Stack
 {
     public class Customer : ThirdParty
     {

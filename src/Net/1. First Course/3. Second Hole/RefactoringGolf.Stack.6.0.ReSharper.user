@@ -1,0 +1,60 @@
+<Configuration>
+  <UnitTestSessions>
+    <Session>
+      <Name>Session #1</Name>
+      <Elements>
+        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Stack.Tests.CustomerTests" type="MsTestTestClassElement" TypeName="RefactoringGolf.Stack.Tests.CustomerTests" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
+        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Stack.Tests.ManagerTests" type="MsTestTestClassElement" TypeName="RefactoringGolf.Stack.Tests.ManagerTests" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
+        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Stack.Tests.OrderTests" type="MsTestTestClassElement" TypeName="RefactoringGolf.Stack.Tests.OrderTests" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
+        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Stack.Tests.ProductTests" type="MsTestTestClassElement" TypeName="RefactoringGolf.Stack.Tests.ProductTests" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
+        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Stack.Tests.SalesmanTests" type="MsTestTestClassElement" TypeName="RefactoringGolf.Stack.Tests.SalesmanTests" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
+        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Stack.Tests.ManagerTests.CalculateTheNetSalaryWhenBenefits" ParentId="RefactoringGolf.Stack.Tests.ManagerTests" type="MsTestTestMethodElement" MethodName="CalculateTheNetSalaryWhenBenefits" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
+        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Stack.Tests.SalesmanTests.CalculateTheNetSalaryWhenFixedSalaryIsOverTheMinimumTax" ParentId="RefactoringGolf.Stack.Tests.SalesmanTests" type="MsTestTestMethodElement" MethodName="CalculateTheNetSalaryWhenFixedSalaryIsOverTheMinimumTax" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
+        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Stack.Tests.ManagerTests.CalculateTheNetSalaryWhenFixedSalaryIsOverTheMinimumTax" ParentId="RefactoringGolf.Stack.Tests.ManagerTests" type="MsTestTestMethodElement" MethodName="CalculateTheNetSalaryWhenFixedSalaryIsOverTheMinimumTax" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
+        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Stack.Tests.ManagerTests.CalculateTheNetSalaryWhenFixedSalaryIsUnderTheMinimumTax" ParentId="RefactoringGolf.Stack.Tests.ManagerTests" type="MsTestTestMethodElement" MethodName="CalculateTheNetSalaryWhenFixedSalaryIsUnderTheMinimumTax" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
+        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Stack.Tests.SalesmanTests.CalculateTheNetSalaryWhenFixedSalaryIsUnderTheMinimumTax" ParentId="RefactoringGolf.Stack.Tests.SalesmanTests" type="MsTestTestMethodElement" MethodName="CalculateTheNetSalaryWhenFixedSalaryIsUnderTheMinimumTax" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
+        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Stack.Tests.SalesmanTests.CalculateTheNetSalaryWhenHaveMonthQuota" ParentId="RefactoringGolf.Stack.Tests.SalesmanTests" type="MsTestTestMethodElement" MethodName="CalculateTheNetSalaryWhenHaveMonthQuota" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
+        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Stack.Tests.CustomerTests.FormatThePhoneNumber" ParentId="RefactoringGolf.Stack.Tests.CustomerTests" type="MsTestTestMethodElement" MethodName="FormatThePhoneNumber" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
+        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Stack.Tests.OrderTests.HoldManyOrderItems" ParentId="RefactoringGolf.Stack.Tests.OrderTests" type="MsTestTestMethodElement" MethodName="HoldManyOrderItems" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
+        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Stack.Tests.ProductTests.ProductImageReturnTheType" ParentId="RefactoringGolf.Stack.Tests.ProductTests" type="MsTestTestMethodElement" MethodName="ProductImageReturnTheType" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
+        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Stack.Tests.OrderTests.ReturnTheTotalWithAccessoriesDiscount" ParentId="RefactoringGolf.Stack.Tests.OrderTests" type="MsTestTestMethodElement" MethodName="ReturnTheTotalWithAccessoriesDiscount" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
+        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Stack.Tests.OrderTests.ReturnTheTotalWithBikesDiscount" ParentId="RefactoringGolf.Stack.Tests.OrderTests" type="MsTestTestMethodElement" MethodName="ReturnTheTotalWithBikesDiscount" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
+        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Stack.Tests.OrderTests.ReturnTheTotalWithCloathingDiscount" ParentId="RefactoringGolf.Stack.Tests.OrderTests" type="MsTestTestMethodElement" MethodName="ReturnTheTotalWithCloathingDiscount" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
+        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Stack.Tests.OrderTests.ReturnTheTotalWithShippingCostWhenDeliveryCountryIsOutsideUSA" ParentId="RefactoringGolf.Stack.Tests.OrderTests" type="MsTestTestMethodElement" MethodName="ReturnTheTotalWithShippingCostWhenDeliveryCountryIsOutsideUSA" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
+        <UnitTestElement Provider="MSTest" Id="RefactoringGolf.Stack.Tests.ProductTests.SerializeToXml" ParentId="RefactoringGolf.Stack.Tests.ProductTests" type="MsTestTestMethodElement" MethodName="SerializeToXml" Project="7198DB14-43B0-46F2-A645-D7BEF7472C11" />
+      </Elements>
+    </Session>
+  </UnitTestSessions>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Employee.cs" caret="1292" fromTop="47" />
+      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Salesman.cs" caret="0" fromTop="0" />
+      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Manager.cs" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Employee.cs" caret="1292" fromTop="20" />
+      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Manager.cs" caret="345" fromTop="11" />
+      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Manager.cs" caret="668" fromTop="19" />
+      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Salesman.cs" caret="518" fromTop="10" />
+      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Salesman.cs" caret="889" fromTop="18" />
+      <File id="4F071850-5EFA-4282-B078-2E1675C035C1/f:Salesman.cs" caret="299" fromTop="8" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.5\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

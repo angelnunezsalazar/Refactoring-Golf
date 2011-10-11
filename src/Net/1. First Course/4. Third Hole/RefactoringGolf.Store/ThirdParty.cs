@@ -1,4 +1,4 @@
-namespace RefactoringGolf
+namespace RefactoringGolf.Stack
 {
     public class ThirdParty
     {

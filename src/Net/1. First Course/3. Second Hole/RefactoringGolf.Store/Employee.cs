@@ -1,4 +1,4 @@
-namespace RefactoringGolf
+namespace RefactoringGolf.Stack
 {
     using System.Collections.Generic;
     using System.Linq;
@@ -19,10 +19,6 @@ namespace RefactoringGolf
 
         public string Country { get; set; }
 
-        /*
-         * Only the managers have subordinates
-         * but anyone could have a manager.
-         */
         protected IList<Employee> subordinates = new List<Employee>();
 
         public IEnumerable<Employee> Subordinates

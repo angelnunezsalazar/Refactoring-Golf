@@ -1,4 +1,4 @@
-namespace RefactoringGolf.Tests
+namespace RefactoringGolf.Stack.Tests
 {
     using System;
 

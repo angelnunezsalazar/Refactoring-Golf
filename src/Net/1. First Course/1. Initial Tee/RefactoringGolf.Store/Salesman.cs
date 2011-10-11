@@ -2,35 +2,29 @@ namespace RefactoringGolf.Store
 {
     public class Salesman : Employee
     {
-        public int CommPor{ get; set; } //CommissionPorcentage
+        public int CommissionPorcentage { get; set; }
 
-        public decimal MonQuo{ get; private set; } //MonthQuota
+        public decimal MonthQuota { get; private set; }
 
-        public Salesman(string firstName, string lastName, decimal fixedSalary, int commPor)
+        public Salesman(string firstName, string lastName, decimal fixedSalary, int commissionPorcentage)
             : base(firstName, lastName, fixedSalary)
         {
-            this.CommPor = commPor;
+            this.CommissionPorcentage = commissionPorcentage;
         }
 
         public decimal NetSalary()
         {
-            decimal addicionalBenefits = this.MonQuo * this.CommPor / 100;
+            decimal benefits = this.MonthQuota * this.CommissionPorcentage / 100;
             decimal pensionFounds = this.FixedSalary * 10 / 100;
             decimal tax = 0;
             if (FixedSalary > 3500)
                 tax = FixedSalary * 5 / 100;
-            return addicionalBenefits + FixedSalary - pensionFounds - tax;
+            return this.FixedSalary + benefits - pensionFounds - tax;
         }
 
-        /// <summary>
-        /// Update the Month Quota
-        /// </summary>
-        /// <param name="addQuo">
-        /// The addicional quota.
-        /// </param>
-        public void UpdateMonQuo(decimal addQuo)
+        public void UpdateMonthQuota(decimal addQuota)
         {
-            MonQuo = MonQuo + addQuo;
+            MonthQuota = MonthQuota + addQuota;
         }
     }
 }

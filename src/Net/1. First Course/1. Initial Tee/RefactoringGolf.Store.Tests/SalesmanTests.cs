@@ -30,7 +30,7 @@ namespace RefactoringGolf.Store.Tests
         {
             int fixedSalary = 3000;
             Salesman salesman = CreateSalesman(fixedSalary);
-            salesman.UpdateMonQuo(1000);
+            salesman.UpdateMonthQuota(1000);
 
             Assert.AreEqual(2800, salesman.NetSalary());
         }
