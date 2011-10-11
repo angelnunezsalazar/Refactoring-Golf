@@ -13,10 +13,6 @@ public abstract class Employee {
 	protected String street;
 	protected String city;
 	protected String country;
-
-	/*
-	 * Only the managers have subordinates but anyone could have a manager.
-	 */
 	protected Set<Employee> subordinates = new HashSet<Employee>();
 
 	protected Employee(String firstName, String lastName, float fixedSalary) {

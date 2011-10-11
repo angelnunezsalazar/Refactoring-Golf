@@ -2,40 +2,36 @@ package refactoringgolf.store;
 
 public class Salesman extends Employee {
 
-	private int commPor; // CommissionPorcentage
-	private float monQuo; // MonthQuota
+	private int commissionPorcentage;
+	private float monthQuota;
 
-	public Salesman(String firstName, String lastName, float fixedSalary, int commPor){
-    	super(firstName, lastName, fixedSalary);
-        this.commPor = commPor;
-    }
-
-	public void setCommPor(int commPor) {
-		this.commPor = commPor;
+	public Salesman(String firstName, String lastName, float fixedSalary, int commissionPorcentage) {
+		super(firstName, lastName, fixedSalary);
+		this.commissionPorcentage = commissionPorcentage;
 	}
 
-	public int getCommPor() {
-		return commPor;
+	public void setCommisionPorcentage(int commissionPorcentage) {
+		this.commissionPorcentage = commissionPorcentage;
 	}
 
-	public float getMonQuo() {
-		return monQuo;
+	public int getCommissionPorcentage() {
+		return commissionPorcentage;
+	}
+
+	public float getMonthQuota() {
+		return monthQuota;
 	}
 
 	public float netSalary() {
-		float addicionalBenefits = monQuo * commPor / 100;
+		float benefits = monthQuota * commissionPorcentage / 100;
 		float pensionFounds = fixedSalary * 10 / 100;
 		float tax = 0;
 		if (fixedSalary > 3500)
 			tax = fixedSalary * 5 / 100;
-		return addicionalBenefits + fixedSalary - pensionFounds - tax;
+		return fixedSalary + benefits - pensionFounds - tax;
 	}
 
-	/**
-	 * @param addQuo
-	 *            The addicional quota
-	 */
-	public void updateMonQuo(float addQuo) {
-		monQuo = monQuo + addQuo;
+	public void updateMonthQuota(float addQuota) {
+		monthQuota = monthQuota + addQuota;
 	}
 }

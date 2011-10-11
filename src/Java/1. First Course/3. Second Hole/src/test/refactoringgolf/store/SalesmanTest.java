@@ -28,7 +28,7 @@ public class SalesmanTest {
 	public void calculateTheNetSalaryWhenHaveMonthQuota() {
 		int fixedSalary = 3000;
 		Salesman salesman = createSalesman(fixedSalary);
-		salesman.updateMonQuo(1000);
+		salesman.updateMonthQuota(1000);
 
 		assertEquals(2800, salesman.netSalary(), 0);
 	}
