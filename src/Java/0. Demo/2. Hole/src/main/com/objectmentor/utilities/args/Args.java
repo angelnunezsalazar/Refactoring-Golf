@@ -25,16 +25,18 @@ public class Args {
 		char elementId = element.charAt(0);
 		String elementTail = element.substring(1);
 		validateSchemaElementId(elementId);
-		if (elementTail.length() == 0)
-			marshalers.put(elementId, new BooleanArgumentMarshaler());
-		else if (elementTail.equals("*"))
-			marshalers.put(elementId, new StringArgumentMarshaler());
-		else if (elementTail.equals("#"))
-			marshalers.put(elementId, new IntegerArgumentMarshaler());
-		else if (elementTail.equals("##"))
-			marshalers.put(elementId, new DoubleArgumentMarshaler());
-		else
+		ArgumentMarshaler argumentMarshaler = null;
+		if (elementTail.length() == 0) {
+			argumentMarshaler = new BooleanArgumentMarshaler();
+		} else if (elementTail.equals("*")) {
+			argumentMarshaler = new StringArgumentMarshaler();
+		} else if (elementTail.equals("#")) {
+			argumentMarshaler = new IntegerArgumentMarshaler();
+		} else if (elementTail.equals("##")) {
+			argumentMarshaler = new DoubleArgumentMarshaler();
+		} else
 			throw new ArgsException(INVALID_ARGUMENT_FORMAT, elementId, elementTail);
+		marshalers.put(elementId, argumentMarshaler);
 	}
 
 	private void validateSchemaElementId(char elementId) throws ArgsException {
@@ -75,9 +77,9 @@ public class Args {
 	}
 
 	public int cardinality() {
-	    return argsFound.size();
-	  }
-	
+		return argsFound.size();
+	}
+
 	public boolean has(char arg) {
 		return argsFound.contains(arg);
 	}
