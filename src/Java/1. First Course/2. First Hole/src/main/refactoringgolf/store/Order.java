@@ -68,8 +68,8 @@ public class Order {
 		return shipping;
 	}
 	
-	private float tax(float totalAmount) {
-		return totalAmount * 5 / 100;
+	private float tax(float totalItems) {
+		return totalItems * 5 / 100;
 	}
 
 	private float totalItems() {

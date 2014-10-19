@@ -64,7 +64,7 @@ public class Order {
 				itemAmount = itemAmount - booksDiscount;
 			}
 			if (item.getProduct().getCategory() == ProductCategory.Bikes) {
-				// itemAmount=itemAmount-discount
+				// 20% discount for Bikes
 				itemAmount = itemAmount - itemAmount * 20 / 100;
 			}
 			if (item.getProduct().getCategory() == ProductCategory.Cloathing) {
@@ -77,11 +77,12 @@ public class Order {
 			totalItems += itemAmount;
 		}
 
-		if (this.deliveryCountry == "USA")
-			// totalAmount=totalItemAmount + tax + 0 shipping
+		if (this.deliveryCountry == "USA"){
+			// total=totalItems + tax + 0 shipping
 			return totalItems + totalItems * 5 / 100;
+		}
 
-		// totalAmount=totalItemAmount + tax + 15 shipping
+		// total=totalItemst + tax + 15 shipping
 		return totalItems + totalItems * 5 / 100 + 15;
 	}
 }
