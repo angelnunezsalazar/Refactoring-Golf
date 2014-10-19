@@ -1,0 +1,7 @@
+Impresiones
+- Hojas de código
+- Hojas para tomar el puntaje
+- Hojas donde describe el puntaje
+
+Todos
+- Cambiar las hojas de puntaje a “encadenamiento”
