@@ -2,8 +2,8 @@ package refactoringgolf.store;
 
 public class OrderItem {
 	
-	public Product product;
-	public int quantity;
+	private Product product;
+	private int quantity;
 
 	/*
 	 * Order Item Constructor
