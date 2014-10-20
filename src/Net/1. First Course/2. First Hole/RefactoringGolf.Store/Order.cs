@@ -59,32 +59,39 @@ namespace RefactoringGolf.Stack
             decimal totalItems = 0;
             foreach (var item in this.Items)
             {
-                decimal itemAmount = item.Product.UnitPrice * item.Quantity;
-                decimal discount=0;
-                if (item.Product.Category == ProductCategory.Accessories)
-                {
-                    discount = 0;
-                    if (itemAmount >= 100)
-                    {
-                        discount = itemAmount * 10 / 100;
-                    }
-                }
-                if (item.Product.Category == ProductCategory.Bikes)
-                {
-                    discount = itemAmount * 20 / 100;
-                }
-                if (item.Product.Category == ProductCategory.Cloathing)
-                {
-                    discount = 0;
-                    if (item.Quantity > 2)
-                    {
-                        discount = item.Product.UnitPrice;
-                    }
-                }
-                itemAmount = itemAmount - discount;
+                var itemAmount = TotalItem(item);
                 totalItems += itemAmount;
             }
             return totalItems;
+        }
+
+        private decimal TotalItem(OrderItem item)
+        {
+            decimal itemAmount = item.Product.UnitPrice*item.Quantity;
+            if (item.Product.Category == ProductCategory.Accessories)
+            {
+                decimal booksDiscount = 0;
+                if (itemAmount >= 100)
+                {
+                    booksDiscount = itemAmount*10/100;
+                }
+                itemAmount = itemAmount - booksDiscount;
+            }
+            if (item.Product.Category == ProductCategory.Bikes)
+            {
+                // 20% discount for Bikes
+                itemAmount = itemAmount - itemAmount*20/100;
+            }
+            if (item.Product.Category == ProductCategory.Cloathing)
+            {
+                decimal cloathingDiscount = 0;
+                if (item.Quantity > 2)
+                {
+                    cloathingDiscount = item.Product.UnitPrice;
+                }
+                itemAmount = itemAmount - cloathingDiscount;
+            }
+            return itemAmount;
         }
     }
 }

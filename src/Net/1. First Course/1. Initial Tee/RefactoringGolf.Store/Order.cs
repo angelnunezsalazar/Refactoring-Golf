@@ -32,22 +32,23 @@ namespace RefactoringGolf.Store
 
         public decimal Total()
         {
-            decimal totalAmount = 0;
+            decimal totalItems = 0;
             foreach (var item in this.Items)
             {
-                decimal totalItems = item.Product.UnitPrice * item.Quantity;
+                decimal itemAmount = item.Product.UnitPrice * item.Quantity;
                 if (item.Product.Category == ProductCategory.Accessories)
                 {
                     decimal booksDiscount = 0;
-                    if (totalItems >= 100)
+                    if (itemAmount >= 100)
                     {
-                        booksDiscount = totalItems * 10 / 100;
+                        booksDiscount = itemAmount * 10 / 100;
                     }
-                    totalItems = totalItems - booksDiscount;
+                    itemAmount = itemAmount - booksDiscount;
                 }
                 if (item.Product.Category == ProductCategory.Bikes)
                 {
-                    totalItems = totalItems - totalItems * 20 / 100;
+                    // 20% discount for Bikes
+                    itemAmount = itemAmount - itemAmount * 20 / 100;
                 }
                 if (item.Product.Category == ProductCategory.Cloathing)
                 {
@@ -56,19 +57,19 @@ namespace RefactoringGolf.Store
                     {
                         cloathingDiscount = item.Product.UnitPrice;
                     }
-                    totalItems = totalItems - cloathingDiscount;
+                    itemAmount = itemAmount - cloathingDiscount;
                 }
-                totalAmount += totalItems;
+                totalItems += itemAmount;
             }
 
             if (this.DeliveryCountry == "USA")
             {
-                //totalAmount=totalItemAmount + tax + 0 shipping
-                return totalAmount + totalAmount * 5 / 100;
+                //total=totalItems + tax + 0 shipping
+                return totalItems + totalItems * 5 / 100;
             }
 
-            //totalAmount=totalItemAmount + tax + 15 shipping
-            return totalAmount + totalAmount * 5 / 100 + 15;
+            //total=totalItems + tax + 15 shipping
+            return totalItems + totalItems * 5 / 100 + 15;
         }
     }
 }
