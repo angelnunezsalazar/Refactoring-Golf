@@ -60,16 +60,16 @@ public class Order {
 		return totalItems + tax + shipping;
 	}
 
-	private float tax(float totalItems) {
-		return totalItems * 5 / 100;
-	}
-
 	private int shipping() {
 		int shipping = 15;
 		if (this.deliveryCountry == "USA") {
 			shipping = 0;
 		}
 		return shipping;
+	}
+	
+	private float tax(float totalItems) {
+		return totalItems * 5 / 100;
 	}
 
 	private float totalItems() {
