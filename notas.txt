@@ -15,6 +15,7 @@ Puntajes
 - Cambiar un método a estático o viseversa no cuenta
 - Eliminar código +1 x linea
 - Eliminar comentarios O líneas en blanco 0
+- Crear clases o variables +1;
 
 
 Revisar
@@ -39,14 +40,16 @@ Hoyo 2: 25 MOVIEMIENTOS
 - Mover lineas de código
 - Join Variables
 - Eliminar y mover lineas
-Hoyo 3:
+Hoyo 3: 32 MOVIMIENTOS
 - Move Method (más complejo)
 - Extract Interface
+- Introduce Parameter (opcional)
+- Change Method Signature (opcional)
 
 Indicaciones por Hoyo
 ---------------------
 No olvidar la extructura de los métodos extraidos
-Cuando no puedas hacer un refactoring directamente, has algún pequénno cambio en el código 
+Cuando no puedas hacer un refactoring directamente, has algún pequeño cambio en el código 
 
 Pendientes en .NET
 —————————
