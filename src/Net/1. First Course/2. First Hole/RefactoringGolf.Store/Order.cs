@@ -67,6 +67,7 @@ namespace RefactoringGolf.Stack
 
         private decimal TotalItem(OrderItem item)
         {
+            decimal totalItem = 0;
             decimal itemAmount = item.Product.UnitPrice*item.Quantity;
             if (item.Product.Category == ProductCategory.Accessories)
             {
@@ -75,12 +76,12 @@ namespace RefactoringGolf.Stack
                 {
                     booksDiscount = itemAmount*10/100;
                 }
-                itemAmount = itemAmount - booksDiscount;
+                totalItem = itemAmount - booksDiscount;
             }
             if (item.Product.Category == ProductCategory.Bikes)
             {
                 // 20% discount for Bikes
-                itemAmount = itemAmount - itemAmount*20/100;
+                totalItem = itemAmount - itemAmount * 20 / 100;
             }
             if (item.Product.Category == ProductCategory.Cloathing)
             {
@@ -89,9 +90,9 @@ namespace RefactoringGolf.Stack
                 {
                     cloathingDiscount = item.Product.UnitPrice;
                 }
-                itemAmount = itemAmount - cloathingDiscount;
+                totalItem = itemAmount - cloathingDiscount;
             }
-            return itemAmount;
+            return totalItem;
         }
     }
 }

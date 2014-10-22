@@ -35,6 +35,7 @@ namespace RefactoringGolf.Store
             decimal totalItems = 0;
             foreach (var item in this.Items)
             {
+                decimal totalItem = 0;
                 decimal itemAmount = item.Product.UnitPrice * item.Quantity;
                 if (item.Product.Category == ProductCategory.Accessories)
                 {
@@ -43,12 +44,12 @@ namespace RefactoringGolf.Store
                     {
                         booksDiscount = itemAmount * 10 / 100;
                     }
-                    itemAmount = itemAmount - booksDiscount;
+                    totalItem = itemAmount - booksDiscount;
                 }
                 if (item.Product.Category == ProductCategory.Bikes)
                 {
                     // 20% discount for Bikes
-                    itemAmount = itemAmount - itemAmount * 20 / 100;
+                    totalItem = itemAmount - itemAmount * 20 / 100;
                 }
                 if (item.Product.Category == ProductCategory.Cloathing)
                 {
@@ -57,9 +58,9 @@ namespace RefactoringGolf.Store
                     {
                         cloathingDiscount = item.Product.UnitPrice;
                     }
-                    itemAmount = itemAmount - cloathingDiscount;
+                    totalItem = itemAmount - cloathingDiscount;
                 }
-                totalItems += itemAmount;
+                totalItems += totalItem;
             }
 
             if (this.DeliveryCountry == "USA")

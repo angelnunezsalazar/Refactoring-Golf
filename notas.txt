@@ -20,10 +20,7 @@ Puntajes
 
 Pendientes
 ———-
-Los puntajes en el video de refactoring golf
 Nuevamente puntajes de hoyo 2
-Cambios en .NET
-Hoja para que apunten shortcuts???
 
 Evaluar
 ----------
@@ -37,7 +34,7 @@ Hoyo 1: 11 MOVIMIENTOS
 - Extract Variable
 - Inline Variable
 
-Hoyo 2: 25 MOVIEMIENTOS
+Hoyo 2: 26 MOVIMIENTOS
 - Move Method
 - Inline Variable
 - Mover lineas de código
@@ -53,7 +50,3 @@ Indicaciones por Hoyo
 ---------------------
 No olvidar la extructura de los métodos extraidos
 Cuando no puedas hacer un refactoring directamente, has algún pequeño cambio en el código 
-
-Pendientes en .NET
-—————————
-Variable totalItem en el for del total (cambio en hoyo 1 y 2)
