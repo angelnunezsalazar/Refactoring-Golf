@@ -18,9 +18,12 @@ Puntajes
 - Crear clases o variables +1;
 
 
-Revisar
+Pendientes
 ———-
 Los puntajes en el video de refactoring golf
+Nuevamente puntajes de hoyo 2
+Cambios en .NET
+Hoja para que apunten shortcuts???
 
 Evaluar
 ----------
