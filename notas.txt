@@ -43,3 +43,7 @@ Indicaciones por Hoyo
 ---------------------
 No olvidar la extructura de los métodos extraidos
 Cuando no puedas hacer un refactoring directamente, has algún pequénno cambio en el código 
+
+Pendientes en .NET
+—————————
+Variable totalItem en el for del total (cambio en hoyo 1 y 2)
