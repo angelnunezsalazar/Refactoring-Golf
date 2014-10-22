@@ -1,12 +1,21 @@
 Tips para calentar
 ----------------------
 - Revisar la ventana y sus opciones
-- Extract Method, es muy importante que seleccionas
+Extract Method
+- Qué seleccionas
+- Parámetros
+- Nombre
+
+Move Method
+- Donde lo mueves: parámetros, atributos de la clase
 
 Puntajes
 ----------
-- Mover código con un shortcut no cuenta
+
 - Cambiar un método a estático o viseversa no cuenta
+- Eliminar código +1 x linea
+- Eliminar comentarios O líneas en blanco 0
+
 
 Evaluar
 ----------
@@ -15,12 +24,16 @@ Nombres ItemTotal o TotalItem
 
 Entrenamiento
 --------------
-Hoyo 1: ??????
+Hoyo 1: 11 MOVIMIENTOS
+- Extract Method
+- Extract Variable
+- Inline Variable
+
 Hoyo 2:
-- Join Variables
 - Move Method
 - Inline Variable
 - Mover lineas de código
+- Join Variables
 - Eliminar y mover lineas
 Hoyo 3:
 - Move Method (más complejo)
