@@ -1,0 +1,32 @@
+Tips para calentar
+----------------------
+- Revisar la ventana y sus opciones
+- Extract Method, es muy importante que seleccionas
+
+Puntajes
+----------
+- Mover código con un shortcut no cuenta
+- Cambiar un método a estático o viseversa no cuenta
+
+Evaluar
+----------
+Nombres ItemTotal o TotalItem
+
+
+Entrenamiento
+--------------
+Hoyo 1: ??????
+Hoyo 2:
+- Join Variables
+- Move Method
+- Inline Variable
+- Mover lineas de código
+- Eliminar y mover lineas
+Hoyo 3:
+- Move Method (más complejo)
+- Extract Interface
+
+Indicaciones por Hoyo
+---------------------
+No olvidar la extructura de los métodos extraidos
+Cuando no puedas hacer un refactoring directamente, has algún pequénno cambio en el código 
