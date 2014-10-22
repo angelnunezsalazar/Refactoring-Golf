@@ -55,26 +55,27 @@ public class Order {
 	public float total() {
 		float totalItems = 0;
 		for (OrderItem item : items) {
+			float totalItem=0;
 			float itemAmount = item.getProduct().getUnitPrice() * item.getQuantity();
 			if (item.getProduct().getCategory() == ProductCategory.Accessories) {
 				float booksDiscount = 0;
 				if (itemAmount >= 100) {
 					booksDiscount = itemAmount * 10 / 100;
 				}
-				itemAmount = itemAmount - booksDiscount;
+				totalItem = itemAmount - booksDiscount;
 			}
 			if (item.getProduct().getCategory() == ProductCategory.Bikes) {
 				// 20% discount for Bikes
-				itemAmount = itemAmount - itemAmount * 20 / 100;
+				totalItem = itemAmount - itemAmount * 20 / 100;
 			}
 			if (item.getProduct().getCategory() == ProductCategory.Cloathing) {
 				float cloathingDiscount = 0;
 				if (item.getQuantity() > 2) {
 					cloathingDiscount = item.getProduct().getUnitPrice();
 				}
-				itemAmount = itemAmount - cloathingDiscount;
+				totalItem = itemAmount - cloathingDiscount;
 			}
-			totalItems += itemAmount;
+			totalItems += totalItem;
 		}
 
 		if (this.deliveryCountry == "USA"){
