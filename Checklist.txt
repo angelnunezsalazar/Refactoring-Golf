@@ -6,6 +6,3 @@ Impresiones
 
 Online
 - Hoja para que llenen puntajes y promedio de movimientos
-
-Todos
-- Cambiar las hojas de puntaje a “encadenamiento”
