@@ -18,10 +18,6 @@ Puntajes
 - Crear clases o variables +1;
 
 
-Pendientes
-———-
-Nuevamente puntajes de hoyo 2
-
 Evaluar
 ----------
 Nombres ItemTotal o TotalItem
