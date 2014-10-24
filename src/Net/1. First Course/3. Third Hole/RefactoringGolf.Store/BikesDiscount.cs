@@ -4,7 +4,7 @@ namespace RefactoringGolf.Stack
     {
         public decimal CalculateDiscount(OrderItem orderItem)
         {
-            return orderItem.UnitPricePerQuantity() * 20 / 100;
+            return orderItem.ItemAmount() * 20 / 100;
         }
     }
 }

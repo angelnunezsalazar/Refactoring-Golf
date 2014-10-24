@@ -30,22 +30,22 @@ namespace RefactoringGolf.Stack
             {
                 discount = this.CalculateCloathingDiscount();
             }
-            return this.UnitPricePerQuantity() - discount;
+            return this.ItemAmount() - discount;
         }
 
         private decimal CalculateAccessoriesDiscount()
         {
             decimal discount = 0;
-            if (this.UnitPricePerQuantity() >= 100)
+            if (this.ItemAmount() >= 100)
             {
-                discount = this.UnitPricePerQuantity() * 10 / 100;
+                discount = this.ItemAmount() * 10 / 100;
             }
             return discount;
         }
 
         private decimal CalculateBikesDiscount()
         {
-            return this.UnitPricePerQuantity() * 20 / 100;
+            return this.ItemAmount() * 20 / 100;
         }
 
         private decimal CalculateCloathingDiscount()
@@ -58,7 +58,7 @@ namespace RefactoringGolf.Stack
             return discount;
         }
 
-        private decimal UnitPricePerQuantity()
+        private decimal ItemAmount()
         {
             return this.Product.UnitPrice * this.Quantity;
         }

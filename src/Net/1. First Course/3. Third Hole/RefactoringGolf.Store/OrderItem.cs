@@ -17,7 +17,7 @@ namespace RefactoringGolf.Stack
 
         public decimal Total()
         {
-            return this.UnitPricePerQuantity() - this.CreateCategoryDiscount().CalculateDiscount(this);
+            return this.ItemAmount() - this.CreateCategoryDiscount().CalculateDiscount(this);
         }
 
         private ICategoryDiscount CreateCategoryDiscount()
@@ -38,7 +38,7 @@ namespace RefactoringGolf.Stack
             return categoryDiscount;
         }
 
-        public decimal UnitPricePerQuantity()
+        public decimal ItemAmount()
         {
             return this.Product.UnitPrice * this.Quantity;
         }

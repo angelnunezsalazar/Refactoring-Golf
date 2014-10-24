@@ -25,12 +25,20 @@ namespace RefactoringGolf.Store
 
         public decimal NetSalary()
         {
-            decimal benefits = SalaryBenefits();
-            decimal pensionFounds = this.FixedSalary * 10 / 100;
+            return this.FixedSalary + SalaryBenefits() - PensionFounds() - Tax();
+        }
+
+        private decimal Tax()
+        {
             decimal tax = 0;
             if (this.FixedSalary > 3500)
-                tax = this.FixedSalary * 5 / 100;
-            return this.FixedSalary + benefits - pensionFounds - tax;
+                tax = this.FixedSalary*5/100;
+            return tax;
+        }
+
+        private decimal PensionFounds()
+        {
+            return this.FixedSalary * 10 / 100;
         }
 
         protected abstract decimal SalaryBenefits();
