@@ -9,14 +9,6 @@ Extract Method
 Move Method
 - Donde lo mueves: parámetros, atributos de la clase
 
-Entrenamiento
---------------
-
-Hoyo 3: 32 MOVIMIENTOS
-- Move Method (más complejo)
-- Extract Interface
-- Introduce Parameter (opcional)
-- Change Method Signature (opcional)
 
 Indicaciones por Hoyo
 ---------------------

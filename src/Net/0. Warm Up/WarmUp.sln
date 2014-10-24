@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarmUp", "WarmUp\WarmUp.csproj", "{4BDD0F35-B462-41E5-89AF-AEA5989AC560}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarmUp.Test", "WarmUp.Test\WarmUp.Test.csproj", "{66EDE794-7859-4604-A8AE-3459B4B492EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BDD0F35-B462-41E5-89AF-AEA5989AC560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDD0F35-B462-41E5-89AF-AEA5989AC560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BDD0F35-B462-41E5-89AF-AEA5989AC560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDD0F35-B462-41E5-89AF-AEA5989AC560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66EDE794-7859-4604-A8AE-3459B4B492EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66EDE794-7859-4604-A8AE-3459B4B492EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66EDE794-7859-4604-A8AE-3459B4B492EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66EDE794-7859-4604-A8AE-3459B4B492EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
