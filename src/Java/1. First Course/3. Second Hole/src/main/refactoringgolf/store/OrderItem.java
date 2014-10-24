@@ -32,12 +32,12 @@ public class OrderItem {
 		if (getProduct().getCategory() == ProductCategory.Cloathing) {
 			discount = calculateCloathingDiscount();
 		}
-		return unitPricePerQuantity() - discount;
+		return itemAmount() - discount;
 	}
 
 	private float calculateAccessoriesDiscount() {
 		float discount = 0;
-		float unitPricePerQuantity = unitPricePerQuantity();
+		float unitPricePerQuantity = itemAmount();
 		if (unitPricePerQuantity >= 100) {
 			discount = unitPricePerQuantity * 10 / 100;
 		}
@@ -45,7 +45,7 @@ public class OrderItem {
 	}
 
 	private float calculateBikesDiscount() {
-		return unitPricePerQuantity() * 20 / 100;
+		return itemAmount() * 20 / 100;
 	}
 
 	private float calculateCloathingDiscount() {
@@ -56,7 +56,7 @@ public class OrderItem {
 		return discount;
 	}
 
-	private float unitPricePerQuantity() {
+	private float itemAmount() {
 		return getProduct().getUnitPrice() * getQuantity();
 	}
 }

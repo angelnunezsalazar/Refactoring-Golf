@@ -9,7 +9,6 @@ Extract Method
 Move Method
 - Donde lo mueves: parámetros, atributos de la clase
 
-
 Entrenamiento
 --------------
 Hoyo 1: 11 MOVIMIENTOS
@@ -31,5 +30,5 @@ Hoyo 3: 32 MOVIMIENTOS
 
 Indicaciones por Hoyo
 ---------------------
-No olvidar la extructura de los métodos extraidos
+No olvidar la estructura de los métodos extraidos
 Cuando no puedas hacer un refactoring directamente, has algún pequeño cambio en el código 

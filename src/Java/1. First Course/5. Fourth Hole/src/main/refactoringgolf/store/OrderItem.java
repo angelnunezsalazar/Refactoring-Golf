@@ -22,7 +22,7 @@ public class OrderItem {
 	}
 
 	public float total() {
-		return unitPricePerQuantity() - createCategoryDiscount().calculateDiscount(this);
+		return itemAmount() - createCategoryDiscount().calculateDiscount(this);
 	}
 
 	private CategoryDiscount createCategoryDiscount() {
@@ -39,7 +39,7 @@ public class OrderItem {
 		return categoryDiscount;
 	}
 
-	float unitPricePerQuantity() {
+	public float itemAmount() {
 		return getProduct().getUnitPrice() * getQuantity();
 	}
 }
