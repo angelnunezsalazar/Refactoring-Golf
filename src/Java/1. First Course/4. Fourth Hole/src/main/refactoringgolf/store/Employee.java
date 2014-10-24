@@ -57,13 +57,19 @@ public abstract class Employee {
 	}
 
 	public float netSalary() {
-		float benefits = salaryBenefits();
-		float pensionFounds = this.fixedSalary * 10 / 100;
+		return fixedSalary + benefits() - pensionFounds() - tax();
+	}
+
+	private float tax() {
 		float tax = 0;
 		if (fixedSalary > 3500)
 			tax = fixedSalary * 5 / 100;
-		return fixedSalary + benefits - pensionFounds - tax;
+		return tax;
+	}
+
+	private float pensionFounds() {
+		return this.fixedSalary * 10 / 100;
 	}
 	
-	protected abstract float salaryBenefits();
+	protected abstract float benefits();
 }

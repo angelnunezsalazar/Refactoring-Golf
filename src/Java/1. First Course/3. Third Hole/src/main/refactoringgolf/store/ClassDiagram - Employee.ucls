@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.6" icons="true" automaticImage="JPEG" always-add-relationships="false" 
   generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
-  <class id="1" language="java" name="refactoringgolf.store.Employee" project="4. Fourth Hole" 
-    file="/4. Fourth Hole/src/main/refactoringgolf/store/Employee.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="355" width="160" x="31" y="-68"/>    
+  <class id="1" language="java" name="refactoringgolf.store.Employee" project="3. Third Hole" 
+    file="/3. Third Hole/src/main/refactoringgolf/store/Employee.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="422" width="223" x="55" y="-34"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="refactoringgolf.store.Manager" project="4. Fourth Hole" 
-    file="/4. Fourth Hole/src/main/refactoringgolf/store/Manager.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="396" y="223"/>    
+  <class id="2" language="java" name="refactoringgolf.store.Salesman" project="3. Third Hole" 
+    file="/3. Third Hole/src/main/refactoringgolf/store/Salesman.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="545" y="140"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="refactoringgolf.store.Salesman" project="4. Fourth Hole" 
-    file="/4. Fourth Hole/src/main/refactoringgolf/store/Salesman.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="395" y="22"/>    
+  <class id="3" language="java" name="refactoringgolf.store.Manager" project="3. Third Hole" 
+    file="/3. Third Hole/src/main/refactoringgolf/store/Manager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="537" y="403"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -29,29 +29,19 @@
     </display>  
   </class>  
   <association id="4">    
-    <bendpoint x="398" y="359"/>    
-    <bendpoint x="118" y="363"/>    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="5" name="subordinates"/>      
-      <multiplicity id="6" minimum="0" maximum="2147483647">        
-        <position height="14" width="16" x="151" y="315"/>      
-      </multiplicity>    
+    <bendpoint x="241" y="411"/>    
+    <bendpoint x="154" y="412"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="5" name="manager"/>      
+      <multiplicity id="6" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association id="7">    
-    <bendpoint x="200" y="284"/>    
-    <bendpoint x="223" y="284"/>    
-    <bendpoint x="234" y="207"/>    
-    <bendpoint x="235" y="209"/>    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="8" name="manager">        
-        <position height="18" width="60" x="205" y="290"/>      
-      </attribute>      
-      <multiplicity id="9" minimum="0" maximum="1">        
-        <position height="16" width="25" x="238" y="273"/>      
-      </multiplicity>    
+      <attribute id="8" name="subordinates"/>      
+      <multiplicity id="9" minimum="0" maximum="2147483647"/>    
     </end>    
     <end type="TARGET" refId="1" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
@@ -61,7 +51,6 @@
     <end type="TARGET" refId="1"/>  
   </generalization>  
   <generalization id="11">    
-    <bendpoint x="259" y="174"/>    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="1"/>  
   </generalization>  

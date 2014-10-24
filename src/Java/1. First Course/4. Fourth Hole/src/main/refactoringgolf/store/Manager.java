@@ -26,8 +26,7 @@ public class Manager extends Employee {
 		subordinate.manager = null;
 	}
 	
-	@Override
-	protected float salaryBenefits() {
+	protected float benefits() {
 		return this.subordinates.size() * 20;
 	}
 }

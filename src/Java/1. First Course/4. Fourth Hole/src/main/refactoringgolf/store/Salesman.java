@@ -26,7 +26,7 @@ public class Salesman extends Employee {
 		monthQuota = monthQuota + addQuota;
 	}
 
-	protected float salaryBenefits() {
+	protected float benefits() {
 		return monthQuota * commissionPorcentage / 100;
 	}
 }
