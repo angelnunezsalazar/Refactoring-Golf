@@ -1,8 +1,3 @@
 Impresiones
-- Hojas de código
 - Hojas para tomar el puntaje
 - Hojas donde describe el puntaje
-- Hojas de aprendizajes
-
-Online
-- Hoja para que llenen puntajes y promedio de movimientos
